@@ -1,4 +1,4 @@
-# NGO Management System ~ Initi8
+# Initi8 ~ NGO Management System
 
 This project is an NGO Management System built with Python and PyQt5, providing a user-friendly graphical interface for managing users, donations, and NGO information.
 
