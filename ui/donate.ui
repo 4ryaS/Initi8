@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>730</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>950</width>
+    <height>730</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>950</width>
+    <height>730</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background: url(C:/Users/ARYA/Desktop/CoSc/College/S4/DBMS/DBMS Project/Images/donate.png) center no-repeat;
+}</string>
+  </property>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+font-family: Lexend Deca;
+font-size: 50px;
+background-color: rgba(107, 147, 54, 0);
+border: none;
+}
+
+QPushButton:hover{
+color: green;
+}
+
+QPushButton:pressed{
+font-size: 49px;
+}</string>
+   </property>
+   <property name="text">
+    <string>«</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>60</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-family: Lexend Deca;
+font-size: 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Put Up Items To Donate</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="imgpath">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>439</y>
+     <width>551</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+background: rgba(255, 255, 255, 0.2);
+font-family: Lexend Deca;
+font-size: 23px;
+}
+
+QLineEdit:focus{
+background: rgba(255, 255, 255, 0.5);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>IMAGE FILE PATH</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="browse">
+   <property name="geometry">
+    <rect>
+     <x>779</x>
+     <y>439</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+font-family: Lexend Deca;
+font-size: 20px;
+background-color: rgba(107, 147, 54, 0.9);
+border: none;
+border-radius: 3px;
+}
+
+QPushButton:hover{
+background-color: rgb(107, 147, 54);
+}
+
+QPushButton:pressed{
+color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>BROWSE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="contact">
+   <property name="geometry">
+    <rect>
+     <x>209</x>
+     <y>242</y>
+     <width>551</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+background: rgba(255, 255, 255, 0.2);
+font-family: Lexend Deca;
+font-size: 23px;
+}
+
+QLineEdit:focus{
+background: rgba(255, 255, 255, 0.5);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>CONTACT (Name, Email, Phone)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="item">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>152</y>
+     <width>551</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+background: rgba(255, 255, 255, 0.2);
+font-family: Lexend Deca;
+font-size: 23px;
+}
+
+QLineEdit:focus{
+background: rgba(255, 255, 255, 0.5);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>ITEM</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="loctn">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>342</y>
+     <width>551</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+background: rgba(255, 255, 255, 0.2);
+font-family: Lexend Deca;
+font-size: 23px;
+}
+
+QLineEdit:focus{
+background: rgba(255, 255, 255, 0.5);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>LOCATION</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submit">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>550</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+font-family: Lexend Deca;
+font-size: 20px;
+background-color: rgba(107, 147, 54, 0.5);
+border: none;
+border-radius: 3px;
+}
+
+QPushButton:hover{
+background-color: rgb(107, 147, 54);
+}
+
+QPushButton:pressed{
+color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>SUBMIT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="error">
+   <property name="geometry">
+    <rect>
+     <x>387</x>
+     <y>95</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-family: Lexend Deca;
+font-size: 20px;
+color: 'red';
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="success">
+   <property name="geometry">
+    <rect>
+     <x>397</x>
+     <y>95</y>
+     <width>151</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-family: Lexend Deca;
+font-size: 20px;
+color: 'green';
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

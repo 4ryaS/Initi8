@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>730</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>950</width>
+    <height>730</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>950</width>
+    <height>730</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Dialog{
+background: url(C:/Users/ARYA/Desktop/CoSc/College/S4/DBMS/DBMS Project/Images/mbg.png) center;
+}</string>
+  </property>
+  <widget class="QPushButton" name="info">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid #f44336;
+  font-family: Lexend Deca;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+QPushButton:hover{
+background-color: #3e8e41;
+}
+
+QPushButton:pressed{
+border: 3px solid #f44336;
+}</string>
+   </property>
+   <property name="text">
+    <string>My Info</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="connect">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>211</y>
+     <width>100</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid #f44336;
+  font-family: Lexend Deca;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+QPushButton:hover{
+background-color: #3e8e41;
+}
+
+QPushButton:pressed{
+border: 3px solid #f44336;
+}</string>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="logout">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>100</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid #f44336;
+  font-family: Lexend Deca;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+QPushButton:hover{
+background-color: #3e8e41;
+}
+
+QPushButton:pressed{
+border: 3px solid #f44336;
+}</string>
+   </property>
+   <property name="text">
+    <string>Log out</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="browse">
+   <property name="geometry">
+    <rect>
+     <x>321</x>
+     <y>100</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid #f44336;
+  font-family: Lexend Deca;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+QPushButton:hover{
+background-color: #3e8e41;
+}
+
+QPushButton:pressed{
+border: 3px solid #f44336;
+}</string>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="about">
+   <property name="geometry">
+    <rect>
+     <x>322</x>
+     <y>211</y>
+     <width>101</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid #f44336;
+  font-family: Lexend Deca;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+QPushButton:hover{
+background-color: #3e8e41;
+}
+
+QPushButton:pressed{
+border: 3px solid #f44336;
+}</string>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="donate">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>210</y>
+     <width>101</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid #f44336;
+  font-family: Lexend Deca;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+QPushButton:hover{
+background-color: #3e8e41;
+}
+
+QPushButton:pressed{
+border: 3px solid #f44336;
+}</string>
+   </property>
+   <property name="text">
+    <string>Donate</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fact">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>0</y>
+     <width>681</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-family: Lexend Deca;
+font-size: 18px;
+color: brown;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="greet">
+   <property name="geometry">
+    <rect>
+     <x>181</x>
+     <y>40</y>
+     <width>681</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-family: Lexend Deca;
+font-size: 25px;
+color:green;
+text-align: center;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
